@@ -1,0 +1,41 @@
+# Meu primeiro projeto Python !!!
+#
+# print() = comando saida
+print("Hello Word !!!")
+
+# Quando quiser guardar uma String
+nome ="Jonata Garcia"
+#Quando quiser gaudar um número inteiro
+idade =20
+
+# Exibir o meu nome ( que está dentro da variávelo nome)
+print(nome)
+print(idade)
+
+#Quando quiser exibir a frase "Minha idade é " completando com o conteúdo da variável idade    (3 maneiras)
+print("Minha idade é " +str(idade)+ " anos")
+print(f"Minha idade é {idade} anos\n")
+print("Minha idade é {} anos\n".format(idade))
+
+# Quando quiser exibir "Meu nome é... e tenho... anos..." trocando pelas variáveis nome e idade
+print("Meu nome é {} e tenho {} anos".format(nome,idade))
+
+Nome=input("digite seu nome: ")
+print( f"Seu nome é: {Nome}")
+
+Idade=int(input("digite sua idade: "))
+print("Sua idade é: {}" .format(Idade))
+
+G=input(" digite seu gênero (digite M para masculino e F feminino) ?")
+
+dobro= Idade*2
+
+print("O dobro da sua idade é {}".format(dobro))
+
+if Idade >= 18 and G=="M": print("Ta lascado vai morrer na guerra")
+  
+else: print("voce n vai pra guerra")
+
+
+
+

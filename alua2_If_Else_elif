@@ -1,0 +1,9 @@
+aluno = input("Nome do Aluno:")
+nota=float(input("Nota do aluno:"))
+
+if (nota == 10): print(f"{aluno} Você é o BICHÃO mesmo !") 
+  
+elif (nota >= 6 and nota <=9 ): print(f"{aluno} você está na média")
+  
+elif (nota <6): print(f"{aluno} você está de recuperação ")
+else: print("Notas são de 0 a 10 BURRO ! ")
