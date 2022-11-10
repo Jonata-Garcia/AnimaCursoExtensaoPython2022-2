@@ -1,0 +1,68 @@
+#exemplo de laço
+print("Ben Vindo a aula 3\nFaça a tabuada do 2 com while !")
+print ("\n")
+
+
+contador= 2
+
+
+
+# Exibir de 1 até 10 repetidamente
+while(contador <=20) :
+
+  print (contador)
+
+  
+
+  contador = contador +2 #contador +=1
+
+print("\n" )
+#laço pro python for
+
+print("Faça uma lista de frutas !\n")
+
+fruta0="Morango"
+fruta1="Laranja"
+fruta2="Pêra"
+
+#Lista
+frutas = ["Morango","Laranja","Pêra"]
+
+#mostra todas
+print("->Mostrar todas as frutas: "+str(frutas))
+
+# quero exibir apenas a 3a. fruta (pêra)
+print("->Mostra uma certa fruta escolhida na lista: "+str(frutas[2]))
+
+#Exibir quantas frutas tem na minha lista
+print("->Mostra o número total de frutas na lista: " +str(len(frutas))) # length = tamanho
+
+#acrecenta alguma fruta
+print ("->Adciona uma fruta a mais na lista:  ⇩") 
+frutas.append("Manga")
+
+print("->Agora a lista completa com uma fruta a + adcionada " +str(len(frutas))) #lenght = tamanho
+
+print(frutas[0])
+print(frutas[1])
+print(frutas[2])
+print(frutas[3])
+
+print("\n")
+
+
+print ("Exemplo das frutas com while")
+
+frutas.append("uva")
+#váriavel de incremento (denomina quando vai comçecar a contar)
+i=0
+
+while(i<5):
+  print(frutas[i])
+  i=i+1
+
+print("\n")
+
+print("Exemplo frutas com for")
+for fruta in frutas:
+  print(fruta)
